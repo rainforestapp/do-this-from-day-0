@@ -24,3 +24,9 @@ Stuff you should do from day 0, to minimize technical debt.
   - Something happened offline in the background and you need to let the user know
   - Persistent message list, shows the unread ones on login
   - Bar at the top of the screen, pulled from a queue
+
+## Admin interface
+
+* Most existing admin-interfaces are just html data-tables that are 1:1 with you database schema. With micro-apps, you need an admin interface thats more than that
+  * Devs & non-technical employees are repeatedly making one-off changes to records: "Extend trial by x weeks", "schedule them for an automated run", etc. Theres should be an easy way to implement those one-offs, so that any admin/staff user can go click a button, or run a script that consumes the admin API.
+  * 
