@@ -9,7 +9,7 @@ Stuff you should do from day 0, to minimize technical debt.
   - Accounts handle billing, authorization, ownership
   - Users log in, belong to accounts through memberships, optionally have variable permissions
 
-![](assets/Auth UML.png)
+![](https://raw.githubusercontent.com/rainforestapp/do-this-from-day-0/master/assets/Auth%20UML.png)
 
 ### Remarks
 
